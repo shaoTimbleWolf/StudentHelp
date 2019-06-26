@@ -1,0 +1,15 @@
+server:
+  port: 8072
+spring:     #定义springmvc视图解析器
+  mvc:    view:      prefix: /WEB-INF/video/
+      suffix: .jsp
+dubbo:
+  scan:
+    basePackages: com.student
+  application:
+    name: consumer-student-video #服务名称唯一
+  registry:
+    address: zookeeper://192.168.77.129:2181?backup=192.168.77.129:2182,192.168.77.129:2183
+
+
+  

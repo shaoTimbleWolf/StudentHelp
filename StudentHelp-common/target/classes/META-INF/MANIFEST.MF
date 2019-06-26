@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: StudentHelp-common
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ShaoYongGong-PC
+Implementation-Vendor-Id: com.company
+Build-Jdk: 1.8.0_191
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/StudentHelp/StudentHelp-common
+Created-By: Maven Integration for Eclipse
+
